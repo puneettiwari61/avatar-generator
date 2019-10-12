@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*----------------------header---------------*/
+header {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background-color: darkblue;
+}
+
+h2 {
+	float: left;
+	font-size: 30px;
+	color: white;
+}
+
+.rnav {
+	float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+ul li {
+	display: inline-block;
+	padding-left: 5px;
+}
+
+.navlink {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+/*----------main-----*/
+
+main {
+	text-align: center;
+	padding-top: 50px;
+}
+
+h1 {
+	font-size: 40px ; 
+	text-align: center;
+	color: darkblue;
+	margin-bottom: 30px;
+}
+
+.section-1 {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.avatar {
+	border: 2px solid darkblue;
+	width: 50%;
+	box-sizing: border-box;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+button {
+	padding: 6px 28px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: darkblue;
+	box-shadow: none;
+	box-decoration : none;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	background-color: transparent;
+	outline: none;
+	border : none;
+	border : 1px solid darkblue;
+}
+
+img {
+	margin-top: 20px;
+}
+
+input {
+	display: inline-block;
+	padding: 15px;
+}
+
+
